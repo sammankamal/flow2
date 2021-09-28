@@ -1,0 +1,79 @@
+/* fjerner lille kant ved søgefelt når man scroller ned*/
+html{
+    height: 100%;
+}
+body{
+    background-color: #2f3035;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-image: url(../images/background-adare-restaurant.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    /*baggrundsbillede gentages ikke*/
+    background-repeat: no-repeat;
+    /*billede bliver i midten*/
+    background-position: center;
+}
+h1{
+    font-size: 84px;
+}
+p{
+    font-size: 18px;
+
+}
+a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+header{
+    
+    height: 118px;
+    /* header rykkes til midten*/
+    text-align: center;
+    
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.301);
+    height: 40px;
+    text-align: center;
+    padding-top: 20px;
+
+    
+}
+nav a{
+text-decoration: none;
+font-size: 14px;
+padding-right: 10px;
+padding-left: 10px;
+
+}
+main{
+   
+    height: 400px;
+    text-align: center;
+    padding: 80px 240px 0px 240px;
+
+
+   
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.300);
+    height: 100px;
+    text-align: center;
+    padding-top: 20px;
+    
+    
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+
+}
+.maps{
+    padding-bottom: 100px;
+}
+.youtube{
+    padding-bottom: 100px;
+}
